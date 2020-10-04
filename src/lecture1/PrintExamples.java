@@ -1,4 +1,4 @@
-package vorlesung1;
+package lecture1;
 
 public class PrintExamples {
 
