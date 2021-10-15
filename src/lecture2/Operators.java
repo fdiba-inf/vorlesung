@@ -9,7 +9,10 @@ public class Operators {
         boolean result = a != b;
         System.out.println(result);
 
-        String name = "FDIBA" + 6;
+        String name = "FDIBA" + 6 + 1;
         System.out.println(name);
+
+        String otherName = 6 + 1 + "FDIBA";
+        System.out.println(otherName);
     }
 }
