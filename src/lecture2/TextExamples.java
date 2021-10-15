@@ -9,5 +9,8 @@ public class TextExamples {
 
         String name = "Denis Teofikov";
         String age = null;
+
+        System.out.println(1 + 2 + " FIKI");
+        System.out.println("FIKI" + 1 + 2);
     }
 }
