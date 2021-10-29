@@ -2,15 +2,18 @@ package lecture3;
 
 public class BreakExample {
     public static void main(String[] args) {
-        int i = 1;
+        int index = 0;
 
-        while(i < 5) {
-            i++;
-            if (i == 3) {
+        while (index < 10) {
+            index++;
+
+            if (index == 7) {
                 continue;
             }
-            System.out.println(i);
+
+            System.out.println(index);
         }
-        System.out.println("ABC: "+i);
+
+        System.out.println("End");
     }
 }
