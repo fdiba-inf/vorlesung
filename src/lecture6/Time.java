@@ -5,14 +5,12 @@ public class Time {
         long startTime = System.currentTimeMillis();
 
         int sum = 0;
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 100000000; i++) {
             sum += i;
         }
 
         long endTime = System.currentTimeMillis();
 
         System.out.println("Time: " + (endTime - startTime));
-
-        Character.isLetterOrDigit('a');
     }
 }
