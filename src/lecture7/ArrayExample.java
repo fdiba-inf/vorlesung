@@ -11,6 +11,6 @@ public class ArrayExample {
     public static void swap(int[] n, int[] m) {
         int[] temp = n;
         n = m;
-        m = temp; // Side effect, Nebenwirkung
+        m = temp;
     }
 }
